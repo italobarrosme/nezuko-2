@@ -6,4 +6,4 @@
 - lefthook ok
 - prettier ok
 - eslint ok
-- skyi lib components
+- skyi lib components ok
