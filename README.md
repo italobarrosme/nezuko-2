@@ -35,7 +35,7 @@ Este projeto utiliza diversas tecnologias modernas para desenvolvimento web. Aba
 1. Clone o repositório
 
 ```bash
-npx create-next-app@latest -e https://github.com/italobarrosme/nezuko
+npx create-next-app@latest -e https://github.com/italobarrosme/nezuko-2
 ```
 
 2. Instale as dependências:
