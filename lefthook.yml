@@ -4,6 +4,7 @@
 #   https://evilmartians.github.io/lefthook/configuration/
 #
 pre-push:
+  parallel: true
   commands:
     packages-audit:
       run: npm run build

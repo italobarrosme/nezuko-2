@@ -9,8 +9,13 @@
     "test:coverage": "vitest run --coverage",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint": "eslint .",
     "test:e2e": "cypress run"
+  },
+  "eslintConfig": {
+    "ignorePatterns": [
+      "src/tests/**/*"
+    ]
   },
   "dependencies": {
     "@types/jest": "^29.5.14",
