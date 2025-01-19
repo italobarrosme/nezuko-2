@@ -1,6 +1,6 @@
 # Nezuko-2
 
-Este projeto utiliza diversas tecnologias modernas para desenvolvimento web. Abaixo está a explicação de cada ferramenta utilizada:
+Nezuko-2 é um **boilerplate** para projetos baseados no **Next.js 15**, projetado para fornecer uma estrutura inicial sólida e equipada com ferramentas modernas de desenvolvimento. Este repositório inclui configurações pré-definidas para testes, estilização, automação de tarefas e qualidade de código, tornando-o ideal para iniciar rapidamente o desenvolvimento de aplicações web robustas e escaláveis.
 
 ## 🛠 Tecnologias
 
@@ -44,6 +44,10 @@ npx create-next-app@latest -e https://github.com/italobarrosme/nezuko-2
 npm install
 ```
 
+```bash
+npm run prepare
+```
+
 1. Execute o projeto:
 
 ```bash
@@ -58,3 +62,6 @@ npm run dev
 - `npm run lint`: Verifica problemas de linting
 - `npm run format`: Formata o código usando Prettier
 - `npm run test:e2e`: Inicia testes e2e
+- `npm run prepare`: Sicroniza git hooks de automação
+
+
